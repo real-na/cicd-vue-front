@@ -1,6 +1,7 @@
 <template>
   <ul>
     <li v-for="user in users" :key="user.id">{{ user.name }}</li>
+    <span>试一试</span>
   </ul>
 </template>
 <script>
